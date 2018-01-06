@@ -2,8 +2,7 @@ $("#name").focus();  //make the name-texbox get focus when page loads
 
 
 // JOB ROLE
-$(".info").append('<input type="text" id="other-title" placeholder="Your Job Role"  name="user_otherJob">');  //appending an input-textbox to the info-field
-$("#other-title").hide();   //hide the textbox
+$("#other-title").hide();   //hide the other-job-textbox
 
 $("#title").change(function(){      //when the user change option in the job-role drop-down menu execute the function down below
   	if ($("#title option:selected").val() == "other")    //if the option selected has the value "other"
